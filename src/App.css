@@ -1,0 +1,130 @@
+.App-body{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.App-flexbox {
+  background-color: #263c8b;
+  display: flex;
+  flex-direction: column;
+  width: 317px;
+  height: 900px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.styled-image{
+  width: 317px;
+  height: 400px;
+  margin-bottom: 20px;  
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: relative;
+}
+
+.App-content {
+  background-color: #263c8b;
+}
+
+.name, .title, .website, .about, .interests{
+  background-color:#263c8b;
+}
+
+.name {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+  align-items: center;
+  color: rgb(220, 210, 210);
+}
+
+.title {
+  color: #F3BF99;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 15.8px;
+  line-height: 6px;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.website{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 13.24px;
+  line-height: 6px;
+  align-items: center;
+  color: rgb(220, 210, 210);
+  margin-bottom: 20px;
+}
+
+.emailbutton, .linkedinbutton{
+  padding: 10px 20px;
+  width: 120px;
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 12px;
+  margin-top: 10px;
+  margin-right: 12px;
+}
+
+.emailbutton{
+  background-color: white;
+  color: black;
+}
+
+.email_icon{
+  width: 14px;
+  height: 16px;
+  margin-right: 7px; 
+  margin-bottom: -3px;
+}
+
+.linkedinbutton{
+ background-color: #0a66c2;
+}
+
+.linkedin_icon{
+  width: 14px;
+  height: 14px;
+  margin-right: 6px; 
+}
+
+.intcontent, .abtcontent{
+  text-align:left;
+  background-color: #263c8b;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: -20px;
+  font-weight: 400px;
+  font-size:15.24px;
+  color: rgb(217, 217, 217);
+}
+
+.about, .interests{
+  margin-left: 40px;
+  text-align:left;
+  font-weight: 700px;
+  font-size: 20px;
+  color: rgb(217, 217, 217);
+}
+
+.footbar{
+  background-color: rgb(71, 53, 183);
+  margin-top: 20px;
+  width: 317px;
+  height: 100px;
+  display: flex;
+
+}
